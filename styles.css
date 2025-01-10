@@ -1,0 +1,60 @@
+/* スポンサーセクション */
+.sponsors {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.sponsors h2 {
+  margin-bottom: 1.5rem;
+}
+
+.sponsors p {
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.sponsor-logos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.sponsor-logos .logo {
+  width: 150px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.sponsor-logos .logo:hover {
+  filter: grayscale(0%);
+}
+
+/* フッター */
+.footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: 600;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
